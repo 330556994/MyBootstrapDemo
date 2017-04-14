@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8"> 
+   <!-- 
+       nitial-scale=1.0 确保网页加载时，以 1:1 的比例呈现，不会有任何的缩放。
+       在移动设备浏览器上，通过为 viewport meta 标签添加 user-scalable=no 可以禁用其缩放（zooming）功能。 
+       通常情况下，maximum-scale=1.0 与 user-scalable=no 一起使用。这样禁用缩放功能后，用户只能滚动屏幕，就能让您的网站看上去更像原生应用的感觉。
+   -->
+   <meta name="viewport" content="width=device-width, 
+                                  initial-scale=1.0, 
+                                  maximum-scale=1.0, 
+                                  user-scalable=no">
+   <title>Bootstrap代码学习</title>
+   <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">  
+   <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+   <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   
+</head>
+<body>
+
+    <!--
+        Bootstrap 代码
+        Bootstrap 允许您以两种方式显示代码：
+        第一种是 <code> 标签。如果您想要内联显示代码，那么您应该使用 <code> 标签。
+        第二种是 <pre> 标签。如果代码需要被显示为一个独立的块元素或者代码有多行，那么您应该使用 <pre> 标签。
+        请确保当您使用 <pre> 和 <code> 标签时，开始和结束标签使用了 unicode 变体： &lt; 和 &gt;。
+        让我们来看看下面的实例：    
+    -->
+    <p><code>&lt;header&gt;</code> 作为内联元素被包围。</p>
+    <p>如果需要把代码显示为一个独立的块元素，请使用 &lt;pre&gt; 标签：</p>
+    <pre>
+        &lt;article&gt;
+            &lt;h1&gt;Article Heading&lt;/h1&gt;
+        &lt;/article&gt;
+    </pre>
+
+
+    <!--更多实例
+       元素名称   描述
+        <var>	变量赋值: x = ab + y	
+        <kbd>	按键提示： CTRL + P	
+        <pre>	多行代码	
+        <pre class="pre-scrollable">	多行代码带有滚动条	
+        <samp>	电脑程序输出: Sample output	
+        <code>	同一行代码片段: span, div    
+    -->
+</body>
+</html>
